@@ -2,11 +2,9 @@ package org.launchcode.techjobs.persistent.models;
 
 import javax.persistence.*;
 
-@Entity
 public class Job{
 
     @Id
-    @GeneratedValue
     private int id;
 
     private String name;
